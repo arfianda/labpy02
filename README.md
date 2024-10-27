@@ -50,3 +50,45 @@ tipe_tiket = input("Pilih tipe tiket (1/2): ")
 
 Program akan meminta input tipe tiket dari user dan menyimpannya di variabel tipe_tiket
 
+3.  Input status member
+
+```
+status_member = input("Apakah anda memiliki kartu member? (y/n): ") 
+```
+
+Program akan meminta input status member dari user.
+
+4. Harga dasar tiket menggunakan operator ternary
+
+```
+harga_dasar = 50000 if tipe_tiket == "1" else 100000
+```
+
+Jika *tipe_tiket="1"* maka *harga=50000* , jika tidak maka harga=100000
+
+5. Hitung Diskon
+
+```
+diskon = 0.2 if status_member.lower() == "y" else 0
+```
+Jika *status_member="y"* maka *diskon=0.2* (20%), jika tidak maka diskon=0
+
+6. Menghitung total harga
+
+```
+total_harga = harga_dasar - (harga_dasar * diskon) 
+```
+
+Menghitung total harga setelah diskon
+
+7. Menampilkan output dari input yang dimasukkan user
+
+```
+print("\n=== Detail Pembayaran ===")
+print(f"Tipe Tiket: {'Reguler' if tipe_tiket == '1' else 'VIP'}")
+print(f"Status Member: {'Ya' if status_member.lower() == 'y' else 'Tidak'}")
+print(f"Harga Dasar: Rp{harga_dasar:,.0f}")
+print(f"Diskon: {diskon*100:.0f}%")
+print(f"Total Harga: Rp{total_harga:,.0f}")
+```
+
