@@ -29,3 +29,24 @@ Jika user memiliki kartu member maka akan dapat diskon 20%
 **Output apabila input yang dimasukkan user adalah _N_ atau tidak memiliki member**
 
 <img src="/.img/nodiskon1.png" width="500" alt="Flowchart Bioskop">
+
+
+**Penjelasan dari code program tiket bioskop**
+
+1.  Perintah dibawah adalah untuk menampilkan judul program dan pilihan tiket yang tersedia.
+
+```
+print("=== Program Hitung Harga Tiket Bioskop ===")
+print("1. Reguler (Rp50.000)")
+print("2. VIP (Rp100.000)")
+
+```
+
+2. Input tipe tiket
+
+```
+tipe_tiket = input("Pilih tipe tiket (1/2): ")
+```
+
+Program akan meminta input tipe tiket dari user dan menyimpannya di variabel tipe_tiket
+
