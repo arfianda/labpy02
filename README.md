@@ -16,8 +16,6 @@ Prog tiket bioskop ini adalah program untuk menghitung harga Tiket bioskop. Kons
 
 <img src="/.img/bioskop.drawio.png" width="500" alt="Flowchart Bioskop">
 
-<img src="/.img/bioskop.drawio.png" width="500" alt="Flowchart">
-
 **Program akan meminta user untuk menginputkan tipe tiket**
 
 <img src="/.img/BIOSKOP.png"width="500" alt="Flowchart Bioskop">
