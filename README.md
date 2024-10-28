@@ -10,7 +10,7 @@ NIM: 312410377
 
 # 1. Tiket Bioskop
 
-Prog tiket bioskop ini adalah program untuk menghitung harga Tiket bioskop. Konsepnya adalah jika user memiliki kartu member maka user akan mendapatkan diskon 20%
+Program tiket bioskop ini adalah program untuk menghitung harga Tiket bioskop. Konsepnya adalah jika user memiliki kartu member maka user akan mendapatkan diskon 20%
 
 **Flowchart dari Program tersebut**
 
@@ -92,3 +92,4 @@ print(f"Diskon: {diskon*100:.0f}%")
 print(f"Total Harga: Rp{total_harga:,.0f}")
 ```
 
+# 2. Kalkulator sederhana
