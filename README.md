@@ -30,7 +30,6 @@ Jika user memiliki kartu member maka akan dapat diskon 20%
 
 <img src="/.img/nodiskon1.png" width="500" alt="Flowchart Bioskop">
 
-
 **Penjelasan dari code program tiket bioskop**
 
 1.  Perintah dibawah adalah untuk menampilkan judul program dan pilihan tiket yang tersedia.
@@ -53,7 +52,7 @@ Program akan meminta input tipe tiket dari user dan menyimpannya di variabel tip
 3.  Input status member
 
 ```
-status_member = input("Apakah anda memiliki kartu member? (y/n): ") 
+status_member = input("Apakah anda memiliki kartu member? (y/n): ")
 ```
 
 Program akan meminta input status member dari user.
@@ -64,19 +63,20 @@ Program akan meminta input status member dari user.
 harga_dasar = 50000 if tipe_tiket == "1" else 100000
 ```
 
-Jika *tipe_tiket="1"* maka *harga=50000* , jika tidak maka harga=100000
+Jika _tipe_tiket="1"_ maka _harga=50000_ , jika tidak maka harga=100000
 
 5. Hitung Diskon
 
 ```
 diskon = 0.2 if status_member.lower() == "y" else 0
 ```
-Jika *status_member="y"* maka *diskon=0.2* (20%), jika tidak maka diskon=0
+
+Jika _status_member="y"_ maka _diskon=0.2_ (20%), jika tidak maka diskon=0
 
 6. Menghitung total harga
 
 ```
-total_harga = harga_dasar - (harga_dasar * diskon) 
+total_harga = harga_dasar - (harga_dasar * diskon)
 ```
 
 Menghitung total harga setelah diskon
