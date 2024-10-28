@@ -93,3 +93,9 @@ print(f"Total Harga: Rp{total_harga:,.0f}")
 ```
 
 # 2. Kalkulator sederhana
+
+Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung dua angka sesuai dengan operasi hitung yang dipilih.
+
+**Flowchart dari Program Kalkulator sederhana**
+
+<img src="/.img/kalkulator.drawio.png" width="500" alt="Kalkulator">
