@@ -99,3 +99,16 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 **Flowchart dari Program Kalkulator sederhana**
 
 <img src="/.img/kalkulator.drawio.png" width="500" alt="Kalkulator">
+
+**Program akan meminta input angka dan Operator perhitungan**
+
+<img src="/.img/KALKULATOR.png" width="500" alt="Kalkulator">
+
+**Contoh apabila kita memilih Operasi hitung Penjumlahan**
+
+<img src="/.img/penjumlahan.png" width="500" alt="Kalkulator">
+
+
+
+
+
