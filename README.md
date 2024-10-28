@@ -108,7 +108,21 @@ Program ini adalah program Kalkulator sederhana yang berfungsi untuk menghitung 
 
 <img src="/.img/penjumlahan.png" width="500" alt="Kalkulator">
 
+**Contoh apabila kita memilih Operasi hitung Pengurangan**
 
+<img src="/.img/pengurangan.png" width="500" alt="Kalkulator">
 
+**Contoh apabila kita memilih Operasi hitung Perkalian**
 
+<img src="/.img/perkalian.png" width="500" alt="Kalkulator">
+
+**Contoh apabila kita memilih Operasi hitung Pembagian**
+
+<img src="/.img/pembagian.png" width="500" alt="Kalkulator">
+
+**Contoh apabila kita memilih Operasi hitung Pembagian namun dibagi 0**
+
+<img src="/.img/pembagian0.png" width="500" alt="Kalkulator">
+
+Apabila angka kedua adalah 0 maka pembagian akan error.
 
